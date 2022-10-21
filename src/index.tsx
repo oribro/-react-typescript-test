@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <div>
-  <h1>Hello, Welcome to React and TypeScript</h1>
+  <h1>Hello, Welcome to Grovv</h1>
   </div>,
     document.getElementById("root")
   );
