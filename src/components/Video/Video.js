@@ -59,7 +59,7 @@ const Video = ({ history }) => {
         numOfWorkers: 1,
         locate: true,
         decoder : {
-          readers : ['ean_reader', 'ean_8_reader', 'upc_reader', 'code_128_reader']
+          readers : ['ean_reader', 'ean_8_reader', 'upc_reader', 'code_128_reader', 'code_39_reader', 'code_39_vin_reader', 'codabar_reader', 'upc_e_reader', 'i2of5_reader', '2of5_reader', 'code_93_reader']
         }
       }, (err) => {
           if (err) {
